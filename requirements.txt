@@ -1,0 +1,12 @@
+torch
+tqdm
+librosa
+numpy
+soundfile
+pathlib
+transformers
+torchaudio
+omegaconf
+scipy
+diffusers
+openai

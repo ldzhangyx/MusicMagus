@@ -6,7 +6,7 @@
 [![python](https://img.shields.io/badge/-Python_3.1+-blue?logo=python&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 [![Paper](http://img.shields.io/badge/paper-arxiv.2402.06178-B31B1B.svg)](https://www.nature.com/articles/nature14539)
-[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020)
+[![Conference](http://img.shields.io/badge/IJCAI-2024-4b44ce.svg)](https://papers.nips.cc/paper/2020)
 
 </div>
 

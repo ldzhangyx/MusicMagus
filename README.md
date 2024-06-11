@@ -18,7 +18,7 @@ If there is any problem related to the code running, please open an issue and I 
 
 ## Demo page
 
-https://bit.ly/musicmagus
+https://bit.ly/musicmagus-demo
 
 ## Installation
 

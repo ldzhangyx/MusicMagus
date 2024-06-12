@@ -13,7 +13,8 @@ class EmbeddingCalculator(object):
         self.embedding_tokenizer = embedding_model.tokenizer
         self.prompt_length = prompt_length
 
-    def generate_captions(self, input_prompt, number=24):
+    @staticmethod
+    def generate_captions(input_prompt, number=24):
         response = openai.Completion.create(
             model="gpt-3.5-turbo-instruct",
             prompt=input_prompt,
@@ -25,10 +26,11 @@ class EmbeddingCalculator(object):
         )
         return [item.text.strip() for item in response.choices]
 
-    def postprocessing_caption(self, caption, keyword):
+    @staticmethod
+    def postprocessing_caption(caption, keyword):
         input_prompt = (f"Please shorten the music caption, and include genre, main instrument, and mood. "
                         f"Then, please replace the main instrument to {keyword}. Caption: {caption}. Result: ")
-        output = self.generate_captions(input_prompt, number=1)
+        output = EmbeddingCalculator.generate_captions(input_prompt, number=1)
         return output[0]
 
     @torch.no_grad()

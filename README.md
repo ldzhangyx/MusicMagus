@@ -56,7 +56,9 @@ conda activate myenv
 
 ## How to run
 
-Directly run `inference.ipynb`.
+1. Set the `openai.key` value in `audioldm2/embedding_calculator.py`.
+
+2. Directly run `inference.ipynb`.
 
 ## Citation
 

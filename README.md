@@ -54,6 +54,14 @@ conda env create -f environment.yaml -n myenv
 conda activate myenv
 ```
 
+## Configuring LP-MusicCaps
+
+Please download `transfer.pth` from the website below and place it to `lpmc/music_captioning/exp/transfer/lp_music_caps/` folder.
+
+```
+https://huggingface.co/seungheondoh/lp-music-caps/blob/main/transfer.pth
+```
+
 ## How to run
 
 1. Set the `openai.key` value in `audioldm2/embedding_calculator.py`.
